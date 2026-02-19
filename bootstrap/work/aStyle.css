@@ -1,0 +1,100 @@
+table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    margin: 5px;
+    margin-top: 5px;
+    background-color:antiquewhite;
+    }
+table{
+    width: 400px;
+    }
+h1{
+    color: rgb(241, 230, 162);
+}
+#box1{
+    display: inblock;
+    background-color: rgb(170, 20, 0);
+    color:antiquewhite;
+}
+#box2{
+    display: block;
+    background-color: rgb(0, 40, 170);
+    color:antiquewhite;
+    padding: 15px;
+}
+#box3{
+    display: block;
+    background-color: rgb(170, 20, 0);
+    color: antiquewhite;
+}
+#box4{
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    color:antiquewhite;
+}
+#box5{
+    display: inline-block;
+    background-color: rgb(196, 2, 2);
+    color:antiquewhite;
+    padding: 15px;
+}
+#box6{
+    display: inline-block;
+    background-color: rgb(122, 2, 2);
+    color: antiquewhite;
+}
+.box7{
+    background-color: rgb(106, 42, 165);
+}
+#box8{
+    background-color: rgb(243, 215, 250);
+}
+.body{
+    text-align: center;
+}
+*{
+    font-size: 24px;
+    font-family: IBM Plex Sans Thai;
+}
+input{
+    display: block;
+    margin :auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(224, 88, 206);
+}
+.back{
+    color: aliceblue;
+    background-color: rgb(214, 101, 93);
+}
+.back:hover{
+    background-color: darkred;
+}
+.Login-btn{
+    color: aliceblue;
+    background-color: rgb(226, 173, 233);
+}
+.Login-btn:hover{
+    background-color: rgb(129, 4, 119);
+}
+.register-btn{
+    color: aliceblue;
+    background-color: rgb(177, 181, 233);
+}
+.register-btn:hover{
+    background-color:rgb(3, 11, 117);
+}
+.Login-header{
+    background-color: rgb(89, 89, 177);
+}
+img{
+    width: 120px;
+}

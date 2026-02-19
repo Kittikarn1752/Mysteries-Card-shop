@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sriracha" ,sans-serif;
+}
+body{
+    background-color:rgb(41, 57, 58);
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.692);
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+nav .Logo >img{
+    height: 72px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+nav a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 5px 5px;
+    border-radius: 10%;
+    outline: auto;
+    box-shadow: 0px 0px 5px 1px black;
+}
+nav a:hover{
+    color:rgb(180, 151, 55);
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    background: #00000000;
+    img{
+        background-size: cover;
+        
+    }
+    p{
+        padding-bottom: 25px;
+    }
+    a{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        background: rgba(255, 255, 255, 0);
+        text-decoration: none;
+        outline: auto;
+        outline-color: black;
+        padding: 2px 5px 5px;
+        
+    }
+    a:hover{
+        color:rgb(40, 218, 179);
+    }
+}
+.img-portfile{
+    width: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow: 0 5px 5px 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 25px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    .card{
+        h3{
+            color: rgb(223, 214, 224);
+        }
+        p{
+            color:rgb(223, 214, 224)
+        }
+    }
+}
+.card{
+    background: rgb(99, 52, 96);
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 10px 10px black;
+    h3{
+        color: black;
+    }
+    p{
+        color:black;
+    }
+}
+.card img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.card h3{
+    padding: 7px;
+    font-size: 24px;
+}
+.card p{
+    padding: 7px;
+    font-size: 16px;
+}
+.bg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
